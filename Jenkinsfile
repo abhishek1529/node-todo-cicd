@@ -4,7 +4,7 @@ pipeline {
     stages{
         stage("Code"){
             steps{
-                git url: "https://github.com/LondheShubham153/node-todo-cicd.git", branch: "master"
+                git url: "https://github.com/abhishek1529/node-todo-cicd/tree/master", branch: "master"
             }
         }
         stage("Build & Test"){
